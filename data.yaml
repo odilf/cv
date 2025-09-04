@@ -1,0 +1,178 @@
+en:
+  summary: "Master's student in Computational and Applied Math."
+
+  contact:
+    mail: "odysseas.maheras@gmail.com"
+    phone: "+34 693 21 30 50"
+    website: "https://odilf.com"
+    github: "https://github.com/odilf"
+
+  education:
+    - degree: "M.Sc. Computational and Applied Math"
+      date: "2025 - 2026"
+      institution: "Carlos III University"
+      location: "Madrid, Spain"
+    - degree: "B.Sc. Computer Science and Engineering"
+      major: "Major: Computer Science and Engineering"
+      minor: "Minor (six months): Modern Physics"
+      date: "2022 - 2025"
+      institution: "Delft University of Technology"
+      location: "Delft, Netherlands"
+      grade: ["GPA", "8.95/10"]
+      thesis: "Is solver guidance redundant for strong SMT implementations?"
+    - degree: "International Baccalaureate (IB) and \"Bachillerato\""
+      date: "2020 - 2022"
+      institution: "Liceo Sorolla C"
+      location: "Madrid, Spain"
+      grade: ["IB grade", "42/45", "EvAU grade", "13,53/14"]
+  
+  awards:
+   - title: "Full scholarship for Master's"
+     date: "2025 - 2026"
+     desc: "Full tuiton scholarship with stipend from _Santander Open Academy_ programme"
+   - title: "Best game written in x86 assembly language"
+     date: "Octubre 2022"
+     desc: "Given for writing a pseudo-3D renderer in assembly (500 participants)"
+ 
+  experience:
+    - title: "Teaching Assistant (TA)"
+      institution: "TU Delft"
+      location: "Netherlands"
+      date: "2023 - 2025"
+      desc: "For the following courses:"
+      roles:
+        - "Computer Organization"
+        - "Probability Theory and Statistics"
+        - "Computer Networks"
+
+    - title: "Open source projects and contributions"
+      date: "2020 - 2025"
+      desc: "Notably:"
+      roles:
+      - title: "pink"
+        desc: "A very minimalistic DSL based on sustitution, designed for experimenting with fundamental math."
+        link: "https://github.com/odilf/pink"
+      - title: "spectral"
+        desc: "Atypical speech recognition toolkit "
+        link: "github.com/TU-Delft-SALT-Group/spectral"
+      - title: "indecision"
+        desc: "Rust + Python framework for modeling highly selective particles"
+        link: "https://github.com/odilf"
+      - title: "dveco"
+        desc: "A recursive lossy image compressor based on standard deviation"
+        link: "https://github.com/odilf/dveco"
+      - title: "...and more in the GitHub profile"
+        link: "https://github.com/odilf"
+
+  skills:
+    programming-languages:
+      Rust: "Expert"
+      Typescript: "Advanced"
+      Svelte: "Expert"
+      Python: "Intermediate"
+      Java: "Familiar"
+      Julia: "Familiar"
+
+  languages:
+    English: "Fluent"
+    Spanish: "Native"
+    Greek: "Native"
+    French: "Begginer"
+
+  personality:
+    - Analytical thinking
+    - Hardworking
+    - Creative
+    - Attention to detail
+    - Good communicator
+    - Eager to learn
+
+
+es:
+  summary: "Estudiante Master en Matemática Aplicada y Computacional."
+
+  contact:
+    mail: "odysseas.maheras@gmail.com"
+    phone: "+34 693 21 30 50"
+    website: "https://odilf.com"
+    github: "https://github.com/odilf"
+
+  education:
+    - degree: "M.Sc. Matemáticas Aplicadas y Computacionales"
+      date: "2025 - 2026"
+      institution: "Universidad Carlos III"
+      location: "Madrid, España"
+    - degree: "B.Sc. Ciencias e Ingeniería Informática"
+      major: "_Major_ en _Computer Science and Engineering_"
+      minor: "_Minor_ de seis meses en Física Moderna _(Modern Physics)_"
+      date: "2022 - 2025"
+      institution: "Delft University of Technology"
+      location: "Delft, Países Bajos"
+      grade: ["Nota media", "8,95/10"]
+      thesis: "Is solver guidance redundant for strong SMT implementations?"
+    - degree: "Bachillerato Internacional (IB) y Nacional Español"
+      date: "2020 - 2022"
+      institution: "Liceo Sorolla C"
+      location: "Madrid, España"
+      grade: ["Nota IB", "42/45", "Nota EvAU", "13.53/14"]
+
+  awards:
+   - title: "Beca completa para Máster Universitario"
+     date: "2025 - 2026"
+     desc: "Beca completa para la matrícula del Máster con dotación adicional, del programa _Santander Open Academy_"
+   - title: "Mejor juego escrito en lenguaje de asamblador"
+     date: "Octubre 2022"
+     desc: "Otorgado por escribir un renderizador pseudo-3D (500 participantes)"
+ 
+  experience:
+    - title: "Asistente de Enseñanza (Teaching Assistant, TA)"
+      institution: "TU Delft"
+      location: "Países Bajos"
+      date: "2023 - 2025"
+      desc: "En las siguientes clases:"
+      roles:
+        - "Organización Informática _(Computer Organization)_"
+        - "Teoría de Probabilidad y Estadística _(Probability Theory and Statistics)_"
+        - "Redes Informáticas _(Computer Networks)_"
+
+    - title: "Proyectos y contribuciones _open source_"
+      date: "2020 - 2025"
+      desc: "De los cuales destacan:"
+      roles:
+      - title: "pink"
+        desc: "Un DSL muy minimalista basado en sustitución, destinado a experimentación de matemáticas fundamentales."
+        link: "https://github.com/odilf/pink"
+      - title: "spectral"
+        desc: "kit de herramientas para reconocimiento de voz atípica"
+        link: "github.com/TU-Delft-SALT-Group/spectral"
+      - title: "indecision"
+        desc: "Framework de Rust + Python para modelar y explorar partículas altamente selectivas."
+        link: "https://github.com/odilf/indecision"
+      - title: "dveco"
+        desc: "Un compresor de imágenes recursivo basado en deviación estándar."
+        link: "https://github.com/odilf/dveco"
+      - title: "Más en el perfil de GitHub"
+        link: "https://github.com/odilf"
+
+  languages:
+    Inglés: "Fluido"
+    Español: "Nativo"
+    Griego: "Nativo"
+    Francés: "Principiante"
+
+  personality:
+    - Pensamiento analítico
+    - Trabajador
+    - Creativo
+    - Atento al detalle
+    - Buen comunicador
+    - Ansioso por aprender
+
+  skills:
+    programming-languages:
+      Rust: "Experto"
+      Typescript: "Avanzado"
+      Svelte: "Experto"
+      Python: "Intermedio"
+      Java: "Familiar"
+      Julia: "Familiar"
