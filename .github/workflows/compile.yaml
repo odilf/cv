@@ -40,7 +40,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           tag: ${{ steps.date.outputs.tag }}
         run: |
-          ls -R .
           gh release create "$tag" \
               --title="Release $tag" \
               --repo="$GITHUB_REPOSITORY" \
