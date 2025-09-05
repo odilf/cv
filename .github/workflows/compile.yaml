@@ -12,12 +12,13 @@ jobs:
         with:
           devShell: .#ci
       - run: typst compile cv.typ 'cv-english.pdf' --input lang=en
+      - run: typst compile cv.typ 'cv-english.svg' --input lang=en --format svg
       - run: typst compile cv.typ 'cv-spanish.pdf' --input lang=es
       - name: Publish PDF
         uses: actions/upload-artifact@v4
         with:
           name: outputs
-          path: '*.pdf'
+          path: '*'
             
   release:
     needs: compile
@@ -43,4 +44,4 @@ jobs:
           gh release create "$tag" \
               --title="Release $tag" \
               --repo="$GITHUB_REPOSITORY" \
-              'artifacts/outputs/*.pdf'
+              'artifacts/outputs/*'
