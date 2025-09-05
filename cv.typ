@@ -35,7 +35,7 @@
   main,
   supplement
 ))
-#let icon(name) = box(image("img/icons/" + name + ".svg", height: 1em), baseline: 15%)
+#let icon(name) = box(image("img/icons/" + lower(name) + ".svg", height: 1em), baseline: 15%)
 
 #grid(
   columns: (1fr, 0.45fr),
