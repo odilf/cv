@@ -34,7 +34,6 @@ jobs:
         id: date
         run: echo "tag=$(date +'%Y-%m-%d')" >> "$GITHUB_OUTPUT"
 
-      - run: ls -R .
       - name: Create release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
