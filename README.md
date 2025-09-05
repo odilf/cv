@@ -2,8 +2,13 @@
 
 My Curriculum Vitae
 
+Download it here:
 - [CV (English)](https://github.com/odilf/cv/releases/latest/download/cv-english.pdf)
 - [CV (Spanish)](https://github.com/odilf/cv/releases/latest/download/cv-spanish.pdf)
+
+## Preview
+
+![odilf cv english](https://github.com/odilf/cv/releases/latest/download/cv-english.svg)
 
 ## How was it made
 
