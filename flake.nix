@@ -40,15 +40,25 @@
       {
         formatter = pkgs.nixfmt-rfc-style;
 
-        devShells.default = pkgs.mkShell {
-          packages = [
-            pkgs.typst
-            pkgs.tinymist
-            pkgs.typstfmt
-            font-to-static
-            lora-static
-            pkgs.just
-          ];
+        devShells = {
+          default = pkgs.mkShell {
+            packages = [
+              pkgs.typst
+              pkgs.tinymist
+              pkgs.typstfmt
+              font-to-static
+              lora-static
+              pkgs.just
+            ];
+          };
+
+          ci = pkgs.mkShell {
+            packages = [
+              pkgs.typst
+              font-to-static
+              lora-static
+            ];
+          };
         };
       }
     );
