@@ -8,7 +8,7 @@ Download it here:
 
 ## Preview
 
-![odilf cv english](https://github.com/odilf/cv/releases/latest/download/cv-english.svg)
+<img alt="odilf cv english" src="https://github.com/odilf/cv/releases/latest/download/cv-english.png">
 
 ## How was it made
 
