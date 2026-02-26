@@ -62,7 +62,7 @@
       #v(2mm)
     ]
 
-    #set list(marker: ([*$tack.r$*], [*›*]))
+    #set list(marker: (text(size: 1.4em, move(dx: 3pt, dy: -0.8pt, $tack.r.short$)), [*›*]))
 
     
     #list(tight: false, spacing: 11pt, ..data.education.map(entry => {
