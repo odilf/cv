@@ -25,7 +25,7 @@
             packages = [
               pkgs.typst
               pkgs.tinymist
-              pkgs.typstfmt
+              pkgs.typstyle
               pkgs.just
             ];
 
