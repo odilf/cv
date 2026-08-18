@@ -1,0 +1,95 @@
+summary: "Graduado en Matemática Aplicada y Computacional."
+
+contact:
+  mail: "odysseas.maheras@gmail.com"
+  phone: "+34 693 21 30 50"
+  website: "https://odilf.com"
+  github: "https://github.com/odilf"
+
+education:
+  - degree: "M.Sc. Matemáticas Aplicadas y Computacionales"
+    date: "2025 - 2026"
+    institution: "Universidad Carlos III"
+    location: "Madrid, España"
+    grade: ["Nota media", "8.41/10"]
+    thesis: "Parallel variational integrators in forced systems and Lie groups"
+    thesis-link: "https://github.com/odilf/master-thesis"
+
+  - degree: "B.Sc. Ciencias e Ingeniería Informática"
+    minor: "_Minor_ de seis meses en Física Moderna _(Modern Physics)_"
+    date: "2022 - 2025"
+    institution: "Delft University of Technology"
+    location: "Delft, Países Bajos"
+    grade: ["Nota media", "8,95/10"]
+    thesis: "Is solver guidance redundant for strong SMT implementations?"
+    thesis-link: "https://github.com/odilf/bachelor-thesis"
+
+  - degree: "Bachillerato Internacional (IB) y Nacional Español"
+    date: "2020 - 2022"
+    institution: "Liceo Sorolla C"
+    location: "Madrid, España"
+    grade: ["Nota IB", "42/45", "Nota EvAU", "13.53/14"]
+
+awards:
+ - title: "Beca completa para Máster Universitario"
+   date: "2025 - 2026"
+   desc: "del programa _Santander Open Academy_"
+
+ - title: "Mejor juego escrito en lenguaje de asamblador"
+   date: "Octubre 2022"
+   desc: "Otorgado por escribir un renderizador pseudo-3D entre 500 participantes"
+
+experience:
+  - title: "Programa JAE (ICMAT)"
+    institution: "ICMAT, CSIC"
+    location: "Madrid"
+    date: "2025 - 2026"
+    desc: "Beca de introducción a la investigación"
+
+  - title: "Asistente de Enseñanza (Teaching Assistant, TA)"
+    institution: "TU Delft"
+    location: "Países Bajos"
+    date: "2023 - 2025"
+    desc: "En las siguientes clases:"
+    desc: "Asistencia en correcciones, tutoriales y más; para las clases de _Probability Theory and Statistics_, _Computer Organization_ y _Computer Networks_"
+
+  - title: "Proyectos y contribuciones _open source_"
+    date: "2020 - hoy"
+    desc: "De los cuales destacan:"
+    roles:
+    - title: "spectral"
+      desc: "Kit de herramientas para reconocimiento de voz atípica"
+      link: "github.com/TU-Delft-SALT-Group/spectral"
+    - title: "gazpacho"
+      desc: "Buen editor de videos para todos, basado en arquitectura de compiladores."
+      link: "https://github.com/odilf/dveco"
+    - title: "indecision"
+      desc: "Librería de Rust + Python para explorar partículas selectivas."
+      link: "https://github.com/odilf"
+    - title: "...y más en mi perfil de GitHub"
+      link: "https://github.com/odilf"
+
+skills:
+  programming-languages:
+    Rust: "Experto"
+    Typescript: "Avanzado"
+    Svelte: "Experto"
+    Python: "Intermedio"
+    Lean: "Familiar"
+    Java: "Familiar"
+    Julia: "Familiar"
+
+languages:
+  Inglés: "Fluido"
+  Español: "Nativo"
+  Griego: "Nativo"
+  Francés: "Principiante"
+
+personality:
+  - Pensamiento analítico
+  - Trabajador
+  - Creativo
+  - Atento al detalle
+  - Buen comunicador
+  - Ansioso por aprender
+

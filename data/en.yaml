@@ -1,0 +1,94 @@
+summary: "Graduate in Computational and Applied Math."
+
+contact:
+  mail: "odysseas.maheras@gmail.com"
+  phone: "+34 693 21 30 50"
+  website: "https://odilf.com"
+  github: "https://github.com/odilf"
+
+education:
+  - degree: "M.Sc. Computational and Applied Mathematics"
+    date: "2025 - 2026"
+    institution: "Carlos III University"
+    location: "Madrid, Spain"
+    grade: ["GPA", "8.41/10"]
+    thesis: "Parallel variational integrators in forced systems and Lie groups"
+    thesis-link: "https://github.com/odilf/master-thesis"
+
+  - degree: "B.Sc. Computer Science and Engineering"
+    minor: "Minor in Modern Physics"
+    date: "2022 - 2025"
+    institution: "Delft University of Technology"
+    location: "Delft, Netherlands"
+    grade: ["GPA", "8.95/10"]
+    thesis: "Is solver guidance redundant for strong SMT implementations?"
+    thesis-link: "https://github.com/odilf/bachelor-thesis"
+
+  - degree: "International Baccalaureate (IB)"
+    date: "2020 - 2022"
+    institution: "Liceo Sorolla C"
+    location: "Madrid, Spain"
+    grade: ["IB grade", "42/45", "EvAU grade", "13,53/14"]
+
+awards:
+ - title: "Full scholarship and stipend for Master's"
+   date: "2025 - 2026"
+   desc: "from _Santander Open Academy_ programme"
+
+ - title: "Best game written in x86 assembly language"
+   date: "October 2022"
+   desc: "Given for writing a pseudo-3D renderer in assembly among 500 participants"
+
+experience:
+  - title: "ICMAT's JAE (introduction to research)"
+    institution: "ICMAT, CSIC"
+    location: "Madrid"
+    date: "2025 - 2026"
+    desc: "Internship in the math department of Spain's national research institute"
+
+  - title: "Teaching Assistant (TA)"
+    institution: "TU Delft"
+    location: "Netherlands"
+    date: "2023 - 2025"
+    desc: "Assistance in grading, tutorials and more; for the courses Probability Theory and Statistics, Computer Organization and Computer Networks"
+
+  - title: "Open source projects and contributions"
+    date: "2020 - today"
+    desc: "Such as:"
+    roles:
+    - title: "spectral"
+      desc: "Atypical speech recognition toolkit "
+      link: "github.com/TU-Delft-SALT-Group/spectral"
+    - title: "gazpacho"
+      desc: "Good video editing for all, based on compiler architecture."
+      link: "https://github.com/odilf/dveco"
+    - title: "indecision"
+      desc: "Rust + Python lib for modeling highly selective particles"
+      link: "https://github.com/odilf"
+    - title: "...and more in my GitHub profile"
+      link: "https://github.com/odilf"
+
+skills:
+  programming-languages:
+    Rust: "Expert"
+    Typescript: "Advanced"
+    Svelte: "Expert"
+    Python: "Intermediate"
+    Lean: "Familiar"
+    Java: "Familiar"
+    Julia: "Familiar"
+
+languages:
+  English: "Fluent"
+  Spanish: "Native"
+  Greek: "Native"
+  French: "Begginer"
+
+personality:
+  - Analytical thinking
+  - Hardworking
+  - Creative
+  - Attention to detail
+  - Good communicator
+  - Eager to learn
+

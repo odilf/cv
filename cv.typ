@@ -1,7 +1,7 @@
 #import "@preview/libra:0.1.0": balance
 
 #let lang = sys.inputs.at("lang", default: "es")
-#let data = yaml("data.yaml").at(lang)
+#let data = yaml("data/" + lang + ".yaml")
 #let alt(en, es) = if lang == "en" { en } else { es }
 
 #assert(
@@ -37,9 +37,10 @@
   gutter: 1mm,
   main, supplement,
 ))
-#let icon(name) = box(
+#let icon(name, ..args) = box(
   image("img/icons/" + lower(name) + ".svg", height: 1em),
   baseline: 15%,
+  ..args
 )
 
 #grid(
@@ -70,33 +71,32 @@
     ]
 
     #set list(marker: (
-      text(size: 1.4em, move(dx: 3pt, dy: -0.8pt, $tack.r.short$)),
+      // text(size: 1.4em, move(dx: 3pt, dy: -0.8pt, $tack.r.short$)),
       [*›*],
     ))
 
 
-    #list(tight: false, spacing: 11pt, ..data.education.map(entry => {
+    #list(tight: false, spacing: 14pt, ..data.education.map(entry => {
       [
-        #split[*#text(size: 1em + 2pt, entry.degree)*][*#faint(entry.date)*]
-        #faint[#emph(entry.institution), #entry.location] \
+        #split[#text(size: 1em + 2pt, entry.degree)][*#faint(entry.date)*]
+        #strong[#emph(entry.institution), #entry.location] \
         #if "grade" in entry [
-          #(
+          #faint(
             entry
               .grade
               .chunks(2)
               .map((
                 (gtext, grade),
-              ) => [#gtext: *#text(size: 1em + 2pt, grade)*])
+              ) => [#gtext: #text(size: 1em + 0pt, grade)])
               .join("\n")
           )
         ]
         #set text(size: 1em - 0.3pt)
-        #if "major" in entry [
-          - #eval(entry.major, mode: "markup")
+        #if "minor" in entry [
           - #eval(entry.minor, mode: "markup")
         ]
         #if "thesis" in entry [
-          - #alt[Thesis][Tesis]: #link("https://github.com/odilf/bachelor-thesis/releases/download/2025-06-25/paper.pdf")[*#entry.thesis*]
+          - #alt[Thesis][Tesis]: #link(entry.thesis-link)[*#entry.thesis*]
         ]
       ]
     }))
@@ -116,14 +116,16 @@
       [
         #split[*#text(size: 1em + 2pt, eval(entry.title, mode: "markup"))*][*#faint(entry.date)*]
         #if "institution" in entry [#faint[#entry.institution]] \
-        #box(balance(entry.desc))
-        #list(..entry.roles.map(role => {
-          if type(role) == str {
-            eval(role, mode: "markup")
-          } else {
-            [#link(role.link, role.title)#if "desc" in role [: #role.desc]]
-          }
-        }))
+        #box(balance(eval(entry.desc, mode: "markup")))
+        #if "roles" in entry {
+          list(..entry.roles.map(role => {
+            if type(role) == str {
+              eval(role, mode: "markup")
+            } else {
+              [#link(role.link, role.title)#if "desc" in role [: #role.desc]]
+            }
+          }))
+        }
       ]
     }))
   ],
@@ -137,7 +139,7 @@
 
     == #alt[Programming languages][Lenguajes de programación]
     #for (pl, proficiency) in data.skills.programming-languages.pairs() [
-      #icon(pl) *#pl* #h(1fr) #proficiency \
+      #icon(pl, width: 1em) *#pl* #h(1fr) #proficiency \
     ]
 
     = #icon("languages") #alt[Languages][Idiomas]
