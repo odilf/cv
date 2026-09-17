@@ -40,11 +40,11 @@ awards:
    desc: "Otorgado por escribir un renderizador pseudo-3D entre 500 participantes"
 
 experience:
-  - title: "Programa JAE (ICMAT)"
+  - title: "Becario de investigación"
     institution: "ICMAT, CSIC"
     location: "Madrid"
     date: "2025 - 2026"
-    desc: "Beca de introducción a la investigación"
+    desc: "Beca de introducción a la investigación del programa JAE"
 
   - title: "Asistente de Enseñanza (Teaching Assistant, TA)"
     institution: "TU Delft"
